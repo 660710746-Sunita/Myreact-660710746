@@ -65,7 +65,7 @@ function JSXExemples(){
                 
                 {/* ใช้ ternary operator */}
                 <p>
-                    สถานะ: {isLoggedIn ? '✅ ล็อกอินแล้ว' : '❌ ยังไม่ได้ล็อกอิน'}
+                    สถานะ: {isloggedIn ? '✅ ล็อกอินแล้ว' : '❌ ยังไม่ได้ล็อกอิน'}
                 </p>
                 
                 {/* ใช้ && operator */}
