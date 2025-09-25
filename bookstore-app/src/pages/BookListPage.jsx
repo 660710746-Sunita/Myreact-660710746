@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './style/BookDetailPage.css'
+import './style/BookListPage.css'
 
-const BookDetailPage = () => {
+const BookListPage = () => {
     return(
         <div>
-            <h1>Welcome to the BookDetailPage</h1>
+            <h1>Welcome to the BookListPage</h1>
             <p> This is the Book of the bookstore application</p>
             <p>Explore our collection of books and find your next read!</p>
-            <Link to="/category" >Category</Link>
+            <Link to="/category/fiction" >Category</Link>
             {/* <Link to="/category" className="view-all-link"></Link> */}
         </div>
     );
 }
-export default BookDetailPage;
+export default BookListPage;
